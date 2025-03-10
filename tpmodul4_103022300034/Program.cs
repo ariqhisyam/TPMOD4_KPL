@@ -38,7 +38,7 @@
             string kode = kodePos.GetKodePos(kelurahan);
             Console.WriteLine($"Kode pos untuk {kelurahan} adalah {kode}");
         }
-//door
+
         static void HandleDoorMachine()
         {
             Door myDoor = new Door();
